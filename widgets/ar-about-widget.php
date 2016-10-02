@@ -116,7 +116,7 @@ class ar_widget_about extends WP_Widget {
 			<img class="ar-avatar" src="<?php echo esc_url( $image ); ?>" alt="<?php echo esc_attr( $title ); ?>" />
 			<p><?php echo do_shortcode( $description ); ?></p>
 			<?php if( $social_acc ) {
-				ar_social_acc();
+				creme_social_acc();
 			} ?>
 			<div class="clear"></div>
 		</div>
