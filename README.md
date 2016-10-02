@@ -1,4 +1,4 @@
-# creme-plugins
+# Creme Plugins
 Creme Di Menta Plugin Extentions.
 
 <li>Plugin Name: Creme Di Menta Extentions</li>
