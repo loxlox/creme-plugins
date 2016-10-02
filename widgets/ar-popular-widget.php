@@ -52,7 +52,7 @@ class ar_popular_widget extends WP_Widget {
 		$options  = array(
 			'comment_count'		=> 'Comments',
 			'post_views_count'	=> 'Views',
-			'ar_like_post'		=> 'Favorites'
+			'creme_like_post'	=> 'Favorites'
 		); ?>
 
 		<p>
@@ -116,9 +116,9 @@ class ar_popular_widget extends WP_Widget {
 		} elseif ( $popular_by == 'post_views_count' ) {
 			$popular[ 'orderby' ]	= 'meta_value_num';
 			$popular[ 'meta_key' ]	= 'post_views_count';
-		} elseif ( $popular_by == 'ar_like_post' ) {
+		} elseif ( $popular_by == 'creme_like_post' ) {
 			$popular[ 'orderby' ]	= 'meta_value_num';
-			$popular[ 'meta_key' ]	= 'ar_like_post';
+			$popular[ 'meta_key' ]	= 'creme_like_post';
 		}
 
 		$loop = new WP_Query( $popular );
@@ -144,8 +144,8 @@ class ar_popular_widget extends WP_Widget {
 
 					<div class="ar-pop-content">
 						<?php 
-						the_title( '<h4 ' . ar_get_attr( 'entry-title' ) . '><a href="' . esc_url( get_the_permalink() ) . '" rel="bookmark" itemprop="url">', '</a></h4>' );
-						ar_posted_time();
+						the_title( '<h4 ' . creme_get_attr( 'entry-title' ) . '><a href="' . esc_url( get_the_permalink() ) . '" rel="bookmark" itemprop="url">', '</a></h4>' );
+						creme_posted_time();
 						?>
 						<span class="ar-comment">
 							<a href="<?php echo esc_url( get_comments_link() ); ?>" title="<?php echo esc_attr__( 'Comment', 'creme-plugin' ) ?>">
@@ -153,8 +153,8 @@ class ar_popular_widget extends WP_Widget {
 			            	</a>
 			            </span>
 			            <?php 
-			            echo ar_get_post_view_count();
-			            ar_like();
+			            echo creme_get_post_view_count();
+			            creme_like();
 			            ?>
 					</div>
 
