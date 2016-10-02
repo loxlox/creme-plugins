@@ -1,0 +1,141 @@
+# Copyright (C) 2016 the WordPress team
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Creme Plugins 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/twentyfifteen\n"
+"POT-Creation-Date: 2016-10-02 12:02+0700\n"
+"PO-Revision-Date: 2016-10-02 12:02+0700\n"
+"Last-Translator: \n"
+"Language-Team: artheme <artheme.info@gmail.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_html__;esc_html_e;esc_html_x;esc_attr__;"
+"esc_attr_e;esc_attr_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: author.php:4
+msgid "Twitter Username"
+msgstr ""
+
+#: author.php:5
+msgid "Facebook Username"
+msgstr ""
+
+#: author.php:6
+msgid "Instagram Username"
+msgstr ""
+
+#: author.php:7
+msgid "Pinterest Username"
+msgstr ""
+
+#: widgets/ar-about-widget.php:21
+msgid "Creme: About"
+msgstr ""
+
+#: widgets/ar-about-widget.php:24
+msgid "A widget that displays an About Owner of Site."
+msgstr ""
+
+#: widgets/ar-about-widget.php:50 widgets/ar-popular-widget.php:59
+msgid "Title"
+msgstr ""
+
+#: widgets/ar-about-widget.php:56
+msgid "Image URL"
+msgstr ""
+
+#: widgets/ar-about-widget.php:58
+msgid "Insert your image URL. For best result use 300px width"
+msgstr ""
+
+#: widgets/ar-about-widget.php:63
+msgid "Description"
+msgstr ""
+
+#: widgets/ar-about-widget.php:70
+msgid "Enable Social Icon"
+msgstr ""
+
+#: widgets/ar-about-widget.php:71
+msgid "You can insert url Social Account in Customize > Social Account."
+msgstr ""
+
+#: widgets/ar-ads-widget.php:22
+msgid "Creme: Adspace"
+msgstr ""
+
+#: widgets/ar-ads-widget.php:25
+msgid "A widget that displays adspace."
+msgstr ""
+
+#: widgets/ar-ads-widget.php:60 widgets/ar-category-widget.php:48
+msgid "Title:"
+msgstr ""
+
+#: widgets/ar-ads-widget.php:66
+msgid "Ad Code:"
+msgstr ""
+
+#: widgets/ar-ads-widget.php:70
+msgid "Or"
+msgstr ""
+
+#: widgets/ar-ads-widget.php:74
+msgid "Image URL:"
+msgstr ""
+
+#: widgets/ar-ads-widget.php:80
+msgid "Link URL:"
+msgstr ""
+
+#: widgets/ar-ads-widget.php:86
+msgid "Alt text:"
+msgstr ""
+
+#: widgets/ar-category-widget.php:19
+msgid "Creme: Category Banner"
+msgstr ""
+
+#: widgets/ar-category-widget.php:22
+msgid "A widget that category with banner."
+msgstr ""
+
+#: widgets/ar-category-widget.php:54
+msgid "Category Count Shown:"
+msgstr ""
+
+#: widgets/ar-category-widget.php:60
+msgid "Category Include:"
+msgstr ""
+
+#: widgets/ar-category-widget.php:62
+msgid "Inset category id you want to show, separate with ' , '. e.g. 2,3"
+msgstr ""
+
+#: widgets/ar-popular-widget.php:24
+msgid "Creme: Popular Posts"
+msgstr ""
+
+#: widgets/ar-popular-widget.php:27
+msgid "A widget that displays your popular posts by comment count."
+msgstr ""
+
+#: widgets/ar-popular-widget.php:64
+msgid "Popular By"
+msgstr ""
+
+#: widgets/ar-popular-widget.php:73
+msgid "Number of Posts"
+msgstr ""
+
+#: widgets/ar-popular-widget.php:151
+msgid "Comment"
+msgstr ""
