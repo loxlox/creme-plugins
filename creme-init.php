@@ -10,6 +10,7 @@
 
 require_once plugin_dir_path( __FILE__ ) . '/author.php';
 require_once plugin_dir_path( __FILE__ ) . '/shortcodes.php';
+require_once plugin_dir_path( __FILE__ ) . '/category-image.php';
 require_once plugin_dir_path( __FILE__ ) . '/widgets/ar-about-widget.php';
 require_once plugin_dir_path( __FILE__ ) . '/widgets/ar-popular-widget.php';
 require_once plugin_dir_path( __FILE__ ) . '/widgets/ar-ads-widget.php';
