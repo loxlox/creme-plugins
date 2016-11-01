@@ -11,8 +11,6 @@ if ( !defined( 'ABSPATH' ) ) { exit; }
  * @copyright  Copyright (c) 2015
  */
 
-define( 'DEFAULT_IMAGE', get_template_directory_uri() . '/assets/images/no-image2.jpg' );
-
 function category_init() {
 
 	$taxonomies = get_taxonomies();
