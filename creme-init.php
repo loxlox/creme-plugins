@@ -16,8 +16,8 @@ require_once plugin_dir_path( __FILE__ ) . '/widgets/ar-popular-widget.php';
 require_once plugin_dir_path( __FILE__ ) . '/widgets/ar-ads-widget.php';
 require_once plugin_dir_path( __FILE__ ) . '/widgets/ar-category-widget.php';
 
-function creme_init_plugin() {
+function cremedimenta_init_plugin() {
 	load_plugin_textdomain( 'creme-plugin', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 	add_image_size( 'creme-cat-banner', '600', '600', true );
 }
-add_action( 'init', 'creme_init_plugin', 999 );
+add_action( 'init', 'cremedimenta_init_plugin', 999 );

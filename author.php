@@ -1,6 +1,6 @@
 <?php
 
-function creme_add_user_social_acc( $contactmethods ) {
+function cremedimenta_add_user_social_acc( $contactmethods ) {
 	$contactmethods['twitter']   = esc_html__( 'Twitter Username',		'creme-plugin' );
 	$contactmethods['facebook']  = esc_html__( 'Facebook Username',		'creme-plugin' );
 	$contactmethods['instagram'] = esc_html__( 'Instagram Username',	'creme-plugin' );
@@ -8,4 +8,4 @@ function creme_add_user_social_acc( $contactmethods ) {
 
 	return $contactmethods;
 }
-add_filter( 'user_contactmethods', 'creme_add_user_social_acc', 10, 1 );
+add_filter( 'user_contactmethods', 'cremedimenta_add_user_social_acc', 10, 1 );

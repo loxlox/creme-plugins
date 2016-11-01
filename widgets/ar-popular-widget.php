@@ -144,8 +144,8 @@ class ar_popular_widget extends WP_Widget {
 
 					<div class="ar-pop-content">
 						<?php 
-						the_title( '<h4 ' . creme_get_attr( 'entry-title' ) . '><a href="' . esc_url( get_the_permalink() ) . '" rel="bookmark" itemprop="url">', '</a></h4>' );
-						creme_posted_time();
+						the_title( '<h4 ' . cremedimenta_get_attr( 'entry-title' ) . '><a href="' . esc_url( get_the_permalink() ) . '" rel="bookmark" itemprop="url">', '</a></h4>' );
+						cremedimenta_posted_time();
 						?>
 						<span class="ar-comment">
 							<a href="<?php echo esc_url( get_comments_link() ); ?>" title="<?php echo esc_attr__( 'Comment', 'creme-plugin' ) ?>">
@@ -153,8 +153,8 @@ class ar_popular_widget extends WP_Widget {
 			            	</a>
 			            </span>
 			            <?php 
-			            echo creme_get_post_view_count();
-			            creme_like();
+			            echo cremedimenta_get_post_view_count();
+			            cremedimenta_like();
 			            ?>
 					</div>
 
