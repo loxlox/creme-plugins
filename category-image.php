@@ -63,7 +63,7 @@ function edit_texonomy_field( $taxonomy ) {
 		wp_enqueue_script( 'thickbox' );
 	}
 
-	if ( taxonomy_image_url( $taxonomy->term_id, NULL, TRUE ) == DEFAULT_IMAGE ) :
+	if ( taxonomy_image_url( $taxonomy->term_id, NULL, TRUE ) == CREME_DEFAULT_IMAGE ) :
 		$image_text = "";
 	else :
 		$image_text = taxonomy_image_url( $taxonomy->term_id, NULL, TRUE ); ?>
@@ -218,7 +218,7 @@ function taxonomy_image_url( $term_id = NULL, $size = NULL, $return_placeholder 
 	}
 
     if ( $return_placeholder ) {
-		return ( $taxonomy_image_url != '' ) ? $taxonomy_image_url : DEFAULT_IMAGE;
+		return ( $taxonomy_image_url != '' ) ? $taxonomy_image_url : CREME_DEFAULT_IMAGE;
     } else {
 		return $taxonomy_image_url;
     }
@@ -256,7 +256,7 @@ function taxonomy_image( $term_id = NULL, $size = 'full' ) {
 		$attachment_id 	= get_attachment_id_by_url( $taxonomy_image_url );
 		$attachment 	= get_post( $attachment_id );
 		$title 			= $attachment->post_title;
-		$taxonomy_image = '<img src="' . esc_url( DEFAULT_IMAGE ) . '" class="attachment-full size-full" alt="' . trim( strip_tags( $title ) ) . '" />';
+		$taxonomy_image = '<img src="' . esc_url( CREME_DEFAULT_IMAGE ) . '" class="attachment-full size-full" alt="' . trim( strip_tags( $title ) ) . '" />';
 
 	}
 
