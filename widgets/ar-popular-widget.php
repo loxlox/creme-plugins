@@ -118,7 +118,7 @@ class ar_popular_widget extends WP_Widget {
 			$popular[ 'meta_key' ]	= 'post_views_count';
 		} elseif ( $popular_by == 'creme_like_post' ) {
 			$popular[ 'orderby' ]	= 'meta_value_num';
-			$popular[ 'meta_key' ]	= 'creme_like_post';
+			$popular[ 'meta_key' ]	= 'cremedimenta_like_post';
 		}
 
 		$loop = new WP_Query( $popular );
